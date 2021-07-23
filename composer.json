@@ -1,0 +1,28 @@
+{
+    "name": "tuinhanne/zalopay",
+    "description": "ZaloPay payment integration for your app",
+    "keywords": ["php payment", "zalopay", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tuinhanne\\Zalopay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nguyen Thanh Nhan",
+            "email": "tuinhanne@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tuinhanne\\Zalopay\\ZaloPayServiceProvider"
+            ]
+        }
+    }
+}
